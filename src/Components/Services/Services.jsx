@@ -21,13 +21,17 @@ const Services = () => {
       </div>
       <div className="services-container">
         {services_data.map((service,index)=> {
-          return <div key={index} className='service-format'>
-            <h3>{service.s_no}</h3>
-            <h2>{service.s_name}</h2>
-            <p>{service.s_desc}</p>
-            <div className='services-readmore'>
-             <p onClick={handleRead}>Read More</p>  
-              <img src={arrow_icon} alt="" />
+          return <div className="card overflow-hidden bg-transparent" key={index}> 
+            <div className="col">
+              <div className='service-format'>
+                <h3>{service.s_no}</h3>
+                <h2>{service.s_name}</h2>
+                <p className=' flex-wrap'>{service.s_desc}</p>
+                <div className='services-readmore'>
+                <p onClick={handleRead}>Read More</p>  
+                  <img src={arrow_icon} alt="" />
+                </div>
+              </div>
             </div>
           </div>
         })}

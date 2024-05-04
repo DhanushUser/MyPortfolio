@@ -7,6 +7,10 @@
 .nav-title h1{
     margin-right: 20px;
 }
+p {
+    margin-top: 0;
+    /* margin-bottom: 1rem; */
+}
 
 .nav-menu{
     display: flex;
@@ -53,6 +57,57 @@
         margin: 20px 50px;
 
     }
+    .nav-connect{
+        display: none;
+    }
+    .nav-mob-open{
+        display: block;
+        position: fixed;
+        right: 30px;
+    }
+    .nav-mob-close{
+        display: block;
+        position: relative;
+        top: 30px;
+        left: 290px;
+        width: 30px;
+    }
+    .nav-menu{
+        position: fixed;
+        flex-direction: column;
+        align-items: start;
+        top: 0;
+        gap: 30px;
+        background-color: #1f0016;
+        width: 350px;
+        height: 100%;
+        z-index: 2;
+        transition: right .3s;
+        right: -350px;
+    }
+    .nav-menu li{
+        font-size: 20px;
+        padding-left: 100px;
+        flex-direction: row;
+        gap: 20px;
+    }
+}
+
+
+@media  (max-width:1000px){
+    .navbar{
+        margin: 20px 90px !important;
+    }
+    .nav-menu{
+        gap: 20px;
+    }
+    .nav-connect{
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+
+@media  (max-width:850px){
     .nav-connect{
         display: none;
     }

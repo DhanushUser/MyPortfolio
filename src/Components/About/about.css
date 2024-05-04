@@ -70,6 +70,12 @@
     border-radius: 50px;
     background: linear-gradient(264deg, #DA7C25 -5.09%, #B923E1 106.28%);
 }
+hr {
+    margin: 1rem 0;
+    border: 0;
+    border-top: 1px solid;
+    opacity: 100 !important;
+}
 .about-achievements{
     display: flex;
     width: 100%;
@@ -102,6 +108,14 @@
     transform: scale(1.12);
     transition: .5s;
 }
+
+
+@media (max-width: 568px) {
+
+        .social h4 {
+            font-size: 15px;
+        }
+    }
 
 @media (max-width:768px){
     .about{
