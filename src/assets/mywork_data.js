@@ -1,17 +1,11 @@
-import project1_img from '../assets/project_1.svg'
-import project2_img from '../assets/project_2.svg'
-import project3_img from '../assets/project_3.svg'
-import project4_img from '../assets/project_4.svg'
-import project5_img from '../assets/project_5.svg'
-import project6_img from '../assets/project_6.svg'
+
 import youtube from '../assets/youtube.png'
-import ecom from '../assets/ecom.png'
-import home from '../assets/home.png'
-import landing from '../assets/landing.png'
 import news from '../assets/news.png'
 import port from '../assets/port.png'
 import educity from '../assets/educity.png'
-import filter from '../assets/filter.png'
+import elec from '../assets/elec.png'
+import elec2 from '../assets/elec2.png'
+import coffee from '../assets/coffee.png'
 
 const mywork_data = [
     {
@@ -23,16 +17,16 @@ const mywork_data = [
     },
     {
         w_no:2,
-        w_name:"E-commerce Website",
-        w_img:ecom,
-        w_des: 'This is my personal portfolio website using reactJs. It is responsive and user friendly',
-        w_link: '',
+        w_name:"Electronics Website",
+        w_img:elec,
+        w_des: 'Fully functional electronics website using reactJs and tailwind CSS . It is responsive and user friendly',
+        w_link: 'https://apparelelectronics.netlify.app/',
     },
     {
         w_no:3,
         w_name:"Youtube clone",
         w_img:youtube,
-        w_des: 'This is my personal portfolio website using reactJs. It is responsive and user friendly',
+        w_des: 'Responsive and functional Youtube clone using reactJs. It is responsive and user friendly',
         w_link: 'https://main--myyoutubeclonewithreact.netlify.app/',
     },
     {
@@ -44,10 +38,10 @@ const mywork_data = [
     },
     {
         w_no:5,
-        w_name:"Landing Website",
-        w_img:landing,
-        w_des: 'This is my personal portfolio website using reactJs. It is responsive and user friendly',
-        w_link: '',
+        w_name:"Cafe shop Website",
+        w_img:coffee,
+        w_des: 'Desire cafe shop using reactJs and bootstrap. It is responsive and user friendly',
+        w_link: 'https://desirecafeshop.netlify.app/',
     },
     {
         w_no:6,
