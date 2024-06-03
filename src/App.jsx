@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 
 import Navbar from './Components/Navbar/Navbar'
 import Hero from './Components/Hero/Hero'
@@ -25,8 +25,6 @@ function App() {
       <Services />
       <Contact />
       <Footer />
-      
-      
     </>
   )
 }

@@ -8,9 +8,7 @@ import arrow_icon from '../../assets/arrow_icon.svg'
 
 const Services = () => {
 
-  const handleRead = ()=>{
-    
-  }
+  
   return (
     
     <div id='services' className='services'>
@@ -28,7 +26,7 @@ const Services = () => {
                 <h2>{service.s_name}</h2>
                 <p className=' flex-wrap'>{service.s_desc}</p>
                 <div className='services-readmore'>
-                <p onClick={handleRead}>Read More</p>  
+                <p >Read More</p>  
                   <img src={arrow_icon} alt="" />
                 </div>
               </div>
